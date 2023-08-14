@@ -1,6 +1,6 @@
 .team-head {
 	font-family: 'Lobster';
-	color: aliceblue;
+	color: rgb(18, 36, 201);
 	display: flex;
 	justify-content: center;
     margin-top: 30px;
@@ -8,7 +8,7 @@
 
 .mohit {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
 }
 .container {
@@ -30,6 +30,7 @@
     max-height: 340px;
     cursor: pointer;
     border: none;
+    
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 }
@@ -37,12 +38,14 @@
 .card .card-image {
     width: 100%;
     max-height: 340px;
+    
 }
 
 .card .card-image img {
     width: 100%;
     max-height: 340px;
     object-fit: cover;
+    
 }
 
 .card .card-content {
@@ -55,17 +58,19 @@
     width: 100%;
     transition: bottom .4s ease-in;
     box-shadow: 0 -10px 10px rgba(147, 39, 3, 0.1);
-    border-top: 1px solid rgba(11, 245, 34, 0.668);
+    border-top: 1px solid orange;
 }
 
 .card:hover .card-content {
     bottom: 0px;
+    
 }
 
 .card:hover .card-content h4,
 .card:hover .card-content h5 {
     transform: translateY(10px);
     opacity: 1;
+    transition-delay:  0.5s ;
 }
 
 .card .card-content h4,
@@ -78,7 +83,7 @@
     font-weight: 500;
     opacity: 0;
     transform: translateY(-40px);
-    transition-delay: 0.2s;
+    transition-delay: 1s;
 }
 
 .card .card-content h5 {
@@ -135,8 +140,8 @@
     border-radius: 5px;
     /* height: 100px;
     width: 300px; */
-    padding: 1rem;
-    margin: 5px auto;
+    /* padding: 1rem; */
+    margin: 0px;
     /* background-color: rgb(235, 124, 20); */
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; 
     transform: translateY(-0.25em);

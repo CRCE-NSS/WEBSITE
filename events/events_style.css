@@ -2,18 +2,18 @@
 
 .event-head {
 	font-family: 'Lobster';
-	color: aliceblue;
+	color: rgb(18, 36, 201);
 	display: flex;
 	justify-content: center;
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .card {
-  background-color: aquamarine;
+  background-color: #48c0efb5;
 }
 
 #el{
-  color: #ffa260;
+  color: #48c0efb5;   /* #ffa260;*/
   border: 2px solid;
   transition: color 0.25s,border-color 0.25s,box-shadow 0.25s, background-color 0.25s;
 }
@@ -26,7 +26,7 @@
   padding: 1rem;
   /* background-color: rgb(235, 124, 20); */
   box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; 
-  background-color: rgb(204, 15, 204);
+  background-color: blue;
 }
 
 .row {
@@ -35,9 +35,12 @@
 }
 
 .list-group-item {
-  background-color: orange;
+  background-color: #48c0efb5;
+  color: white;
+  
 }
 
 .link_post {
-  color: black;
+  color: white;
 }
+

@@ -1,16 +1,28 @@
-@keyframes color {
+/* @keyframes color {
     0%   { background: rgb(50, 17, 136); }
     20%  { background: rgb(59, 35, 110); }
     40%  { background: rgb(44, 23, 129); }
     60%  { background: rgb(69, 9, 147) }
     80%  { background: rgb(55, 2, 105) }
     100% { background: rgb(50, 17, 136); }
+  } */
+@keyframes color {
+    0%   { background: white; }
+    20%  { background: white; }
+    40%  { background: white; }
+    60%  { background: white }
+    80%  { background: white }
+    100% { background: white; }
   }
+
+
   
   body {
-    background: rgb(50, 17, 136); /* Fallback */
+    background: blue; /* Fallback */
     animation: color 9s infinite linear;
     text-align: center;
+    z-index: 1;
+    
   }
 
   #btn-back-to-top {

@@ -2896,7 +2896,7 @@ btnSerial.onclick = () => {
                 data[`${serialNo}`] == null
                   ? "Not Attendend"
                   : data[`${serialNo}`]
-                // data[`${serialNo}`] !== "-" ? :  data[""].style.color =
+                 //data[`${serialNo}`] !== "-" ? :  data[""].style.color =
               }</td>
             </tr>`;
     }
