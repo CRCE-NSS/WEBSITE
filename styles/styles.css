@@ -95,9 +95,15 @@ img {
 }
 
 .style-two {
-  color:#ceea1a;  
-   border: 1px solid; 
+  color:#ffffff;  
+   border: 2px solid; 
     height: 100px; 
+  }
+
+  .style-2po {
+    color:#ffffff;  
+   border: 1px solid; 
+    height: 100px;
   }
 
   .style-three {
