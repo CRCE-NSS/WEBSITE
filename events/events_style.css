@@ -15,7 +15,7 @@
 #el{
   color: #48c0efb5;   /* #ffa260;*/
   border: 2px solid;
-  transition: color 0.25s,border-color 0.25s,box-shadow 0.25s, background-color 0.25s;
+  transition: color 0.25s,border-color 0.25s,box-shadow 0.175s, background-color 0.25s;
 }
 
 #el:hover{
@@ -25,8 +25,8 @@
   width: 300px; */
   padding: 1rem;
   /* background-color: rgb(235, 124, 20); */
-  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; 
-  background-color: blue;
+  box-shadow: 0 1rem 1rem -0.4em black; 
+  background-color: white;
 }
 
 .row {
@@ -42,5 +42,9 @@
 
 .link_post {
   color: white;
+}
+
+.list-group-item {
+  text-decoration: none;
 }
 
