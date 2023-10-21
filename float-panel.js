@@ -15,5 +15,5 @@ $(document).scroll(function(){
     $('#el').css('box-shadow', '0px ' + pixelNum + 'px 40px 0px rgba(0,0,0,0.2)');
   })
 
-document.getElementById("last-updated").innerHTML="Last Updated: 7 Oct 2023"
+document.getElementById("last-updated").innerHTML="Last Updated: 22 Oct 2023"
 
